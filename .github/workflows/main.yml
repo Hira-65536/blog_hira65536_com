@@ -26,11 +26,9 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Deploy with rsync
-        run: >
-          rsync -e 'ssh -i ${{ runner.temp }}/key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${SSH_PORT}'
-          -av --delete public/ ${SSH_USER}@${SSH_HOST}:${DST_PATH}          
+        run: rsync -rlptgoD --delete --exclude ".git/" -e "ssh -i ./key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${SSH_PORT}" public/ $SSH_USER@$SSH_HOST:$DEPLOY_PATH       
         env:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_PORT: ${{ secrets.SSH_PORT }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
           SSH_HOST: ${{ secrets.SSH_HOST }}
-          DST_PATH: ${{ secrets.DST_PATH }}
