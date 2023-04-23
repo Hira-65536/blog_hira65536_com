@@ -14,7 +14,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.108.1'
+          hugo-version: '0.108.0'
           extended: true  # Enable scss
 
       - name: Build
