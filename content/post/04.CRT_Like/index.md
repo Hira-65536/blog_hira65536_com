@@ -16,3 +16,4 @@ tags = [
 
 ![CRTスクリプト適応後](image_crt.png)
 
+ - 配布先 : [Aseprite_CRTConverter](https://github.com/Hira-65536/Aseprite_CRTConverter)
