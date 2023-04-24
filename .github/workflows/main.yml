@@ -21,12 +21,11 @@ jobs:
         run: hugo --minify
 
       - name: Generate ssh key
-        run: echo "$SSH_PRIVATE_KEY" > ${{ runner.temp }}/key && chmod 600 ${{ runner.temp }}/key
+        run: echo "$SSH_PRIVATE_KEY" > key && chmod 600 key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Deploy with rsync
-        run: rsync -rlptgoD --delete --exclude ".git/" -e "ssh -i ./key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${SSH_PORT}" public/ $SSH_USER@$SSH_HOST:$DEPLOY_PATH       
+      - name: Deploy
+        run: rsync -rlptgoD --delete --exclude ".git/" -e "ssh -i ./key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${SSH_PORT}" public/ $SSH_USER@$SSH_HOST:$DEPLOY_PATH
         env:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_PORT: ${{ secrets.SSH_PORT }}
