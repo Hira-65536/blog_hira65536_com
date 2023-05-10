@@ -1,6 +1,6 @@
 +++
 author = "hira65536"
-title = "Aseprite_CRT"
+title = "AsepriteのスクリプトでCRT風にする"
 date = "2023-03-12"
 description = ""
 categories = [
@@ -9,9 +9,10 @@ categories = [
 tags = [
     "PixelArt"
 ]
+
 +++
 
-### AsepriteのスクリプトでCRTっぽくした
+### 概要
  - 本スクリプトを使用すると、ドット絵をCRTっぽく表示をすることができます。
 
 ![CRTスクリプト適応後](image_crt.png)

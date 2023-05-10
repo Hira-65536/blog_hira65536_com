@@ -1,6 +1,6 @@
 +++
 author = "hira65536"
-title = "PixelMazoku"
+title = "ぴくセルまぞくを出しました"
 date = "2022-10-04"
 description = "同人誌なるものを作ってイベントにでたらしい"
 categories = [
@@ -9,17 +9,19 @@ categories = [
 tags = [
     "PixelArt"
 ]
+
 +++
 
-### ぴくセルまぞく出しました
+### 概要
 
+人生で初めて同人即売会に参加しました。
 再販予定はないですが、今後イベントでる機会があればリメイク版を刷りたい。<br>
 購入いただいた方や、色々チェックいただいた友人、フォロワー方には大変感謝しております。
 
 
 ![PixelMazoku表紙](blog_pixelMazoku_01_20220910.png)
 
-### 人生初のサークル参加感想
+### 感想
 
 緊張しすぎて前日全然寝れず、当日の体調最悪だったので睡眠大事。
 
@@ -52,6 +54,6 @@ tags = [
  - 配置が壁だったので良かったが、そんなことは普通ないので荷物をコンパクトに。
  - 値段がわかるやつも事前に準備しておくべき。
 
-### 当日の写真など
+### どんな感じ？
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">両隣が凄すぎて緊張しています。 <a href="https://t.co/n6ue0euNIF">pic.twitter.com/n6ue0euNIF</a></p>&mdash; ひら (@hira_65536) <a href="https://twitter.com/hira_65536/status/1573134182125301760?ref_src=twsrc%5Etfw">September 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
