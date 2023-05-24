@@ -10,6 +10,8 @@ tags = [
     "PixelArt"
 ]
 
+image = "image.png"
+
 +++
 
 ### 概要
