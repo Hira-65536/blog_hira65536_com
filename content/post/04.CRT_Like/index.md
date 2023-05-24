@@ -10,6 +10,8 @@ tags = [
     "PixelArt"
 ]
 
+image = "image_crt.png"
+
 +++
 
 ### 概要
