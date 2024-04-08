@@ -11,12 +11,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #a0d8ef;
+    --body-background: #f6fbfd;
 
-    --accent-color: #34495e;
+    --accent-color: #0c0c0c;
     --accent-color-darker: #000b00;
     --accent-color-text: #fff;
-    --body-text-color: #006f90;
+    --body-text-color: #353535;
 
     --tag-border-radius: 4px;
 
@@ -41,7 +41,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 */
 :root {
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
-    --ja-font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+    --ja-font-family: 'Noto Sans JP', sans-serif;
 
     --base-font-family: "Lato", var(--sys-font-family), var(--ja-font-family), sans-serif;
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -56,7 +56,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     --card-text-color-main: #000;
     --card-text-color-secondary: #747474;
-    --card-text-color-tertiary: #006f90;
+    --card-text-color-tertiary: #6e6e6e;
     --card-separator-color: rgba(218, 218, 218, 0.5);
 
     --card-border-radius: 10px;
