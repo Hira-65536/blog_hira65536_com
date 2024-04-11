@@ -12,7 +12,7 @@ menu:
     main: 
         weight: -90
         params:
-            icon: user
+            icon: user_icon
 ---
 
 ### hira65536です。
