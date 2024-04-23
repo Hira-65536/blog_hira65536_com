@@ -4,12 +4,11 @@ title = "まぞくアドバンス"
 date = "2021-09-30"
 description = "GBAで動くゲームを作ってみたかった。"
 categories = [
-    "Software",
-    "GBA"
+    "log"
 ]
 tags = [
     "PixelArt",
-    "retro"
+    "GBA"
 ]
 
 +++

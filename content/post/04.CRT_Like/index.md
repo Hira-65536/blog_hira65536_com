@@ -4,10 +4,11 @@ title = "AsepriteのスクリプトでCRT風にする"
 date = "2023-03-12"
 description = ""
 categories = [
-    "log"
+    "Work_product"
 ]
 tags = [
-    "PixelArt"
+    "PixelArt",
+    "Aseprite"
 ]
 
 image = "image_crt.png"

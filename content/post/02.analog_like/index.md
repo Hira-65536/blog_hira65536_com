@@ -3,10 +3,11 @@ author = "hira65536"
 title = "画像をブラウン管風に自動加工するソフト"
 date = "2020-09-30"
 categories = [
-    "Software"
+    "Work_product"
 ]
 tags = [
     "PixelArt",
+    "Software"
 ]
 
 +++
