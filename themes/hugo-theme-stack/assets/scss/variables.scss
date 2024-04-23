@@ -4,6 +4,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 /*
 *   Global style
 */
+
 :root {
     --main-top-padding: 35px;
 
@@ -40,10 +41,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Global font family
 */
 :root {
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kiwi+Maru:wght@300&family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&family=Zen+Kurenaido&display=swap');
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
     --ja-font-family: 'Noto Sans JP', sans-serif;
+    --menu-font-family: "Silkscreen", sans-serif;
 
-    --base-font-family: "Lato", var(--sys-font-family), var(--ja-font-family), sans-serif;
+    --base-font-family: "Lato", var(--sys-font-family), var(--ja-font-family), var(--menu-font-family), sans-serif;
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 

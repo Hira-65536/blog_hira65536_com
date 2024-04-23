@@ -132,10 +132,12 @@
     .site-name {
         color: var(--accent-color);
         margin: 0;
-        font-size: 1.6rem;
+        font-size: 2.5rem;
 
-        @include respond(2xl) {
-            font-size: 1.8rem;
+        h1{
+            a{
+                font-family: var(--title-font-family);               
+            }
         }
     }
 
@@ -154,7 +156,7 @@
 [data-scheme="dark"] {
     #dark-mode-toggle {
         color: var(--accent-color);
-        font-weight: 700;
+        font-weight: 100;
 
         .icon-tabler-toggle-left {
             display: none;

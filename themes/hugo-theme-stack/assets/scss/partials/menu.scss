@@ -191,6 +191,7 @@
         }
 
         span {
+            font-family: var(--menu-font-family);
             flex: 1;
         }
 
@@ -207,6 +208,12 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        li {
+            span {
+                font-family: var(--menu-font-family);
+                flex: 1;
+            }
+        }
     }
 }
 
