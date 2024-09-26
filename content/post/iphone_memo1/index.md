@@ -1,7 +1,7 @@
 +++
 author = "hira65536"
 title = "iPhone壊したときのアカウント移行"
-date = "2021-09-30"
+date = "2024-09-27"
 description = "二度あることは三度あると言うので、備忘録として。"
 categories = [
     "memo"
