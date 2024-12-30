@@ -1,0 +1,27 @@
+baseurl = "https://hira65536.com"
+title = "かどまちらぼ"
+theme = "hugo-theme-console"
+languageCode = "ja"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.favicon]]
+  favicon = "static/images/icon.ico"
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  [[params.navlinks]]
+  name = "gallery/"
+  url = "gallery/"

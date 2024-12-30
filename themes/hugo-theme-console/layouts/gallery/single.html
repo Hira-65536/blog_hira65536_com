@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+
+{{ if and (isset .Params "image") .Params.image }}
+    {{ $image := .Page.Resources.GetMatch .Params.image }}
+    {{ with $image }}
+    {{ $newWidth := mul .Width 2 }} <!-- 元の幅を2倍に計算 -->
+    {{ $thumb := .Resize (printf "%dx" $newWidth) }}
+        {{ printf `<img src="%s" alt="%s" style="width: 50%%; height: auto;" class="img-responsive gallery-image">` $thumb.RelPermalink .Title | safeHTML }}
+    {{end}}
+{{ end }}
+
+{{ .Content }}
+{{ template "_internal/disqus.html" . }}
+
+{{ end }}
