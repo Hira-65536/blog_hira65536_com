@@ -36,7 +36,14 @@
               {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
               {{ $.Scratch.Add "path" .Site.BaseURL }}
               <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>:~# 
-              {{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{ end }}</div></header>
+              {{ range $index, $element := split $url "/" }}
+                {{ if ne $element "" }}
+                  {{ $.Scratch.Set "path" (print ($.Scratch.Get "path") $element "/") }}
+                  <a href='{{ $.Scratch.Get "path" | absURL }}'>{{ $element }}</a>/
+                {{ end }}
+              {{ end }}
+            </div>
+          </header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 {{ range .Site.Params.navlinks }}
