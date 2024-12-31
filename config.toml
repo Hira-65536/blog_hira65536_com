@@ -1,4 +1,4 @@
-baseurl = "https://hira65536.com"
+baseurl = "https://hira65536.com/"
 title = "かどまちらぼ"
 theme = "hugo-theme-console"
 languageCode = "ja"
