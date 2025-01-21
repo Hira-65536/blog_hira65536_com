@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-<h1>About</h1>
+<h1>このサイトについて</h1>
 
 <p>
 "かどまちらぼ"へようこそ。<a href="about/">hira_65536</a>の個人サイトです。
 </p>
 <br/>
 
-<h1>Latest posts</h1>
+<h1>最近の投稿</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
@@ -23,7 +23,7 @@
 {{ end }}
 </div>
 
-<h1>Latest Art</h1>
+<h1>最近のイラスト</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/gallery" }}
