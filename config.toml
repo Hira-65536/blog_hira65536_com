@@ -25,3 +25,8 @@ languageCode = "ja"
   [[params.navlinks]]
   name = "gallery/"
   url = "gallery/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
