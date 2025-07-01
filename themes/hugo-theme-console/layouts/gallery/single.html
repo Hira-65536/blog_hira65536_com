@@ -4,9 +4,8 @@
 {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}
-    {{ $newWidth := mul .Width 2 }} <!-- 元の幅を2倍に計算 -->
-    {{ $thumb := .Resize (printf "%dx" $newWidth) }}
-        {{ printf `<img src="%s" alt="%s" style="width: 50%%; height: auto;" class="img-responsive gallery-image">` $thumb.RelPermalink .Title | safeHTML }}
+        {{ $thumb := .Resize "1200x" }} <!-- 適切なサイズに変更 -->
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="gallery-image responsive-image">
     {{end}}
 {{ end }}
 
