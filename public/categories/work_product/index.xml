@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work_product on かどまちらぼ</title>
+    <link>http://localhost:1313/categories/work_product/</link>
+    <description>Recent content in Work_product on かどまちらぼ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/work_product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AsepriteのスクリプトでCRT風にする</title>
+      <link>http://localhost:1313/posts/04.crt_like/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/04.crt_like/</guid>
+      <description>&lt;p&gt;Asepriteのスクリプトでブラウン管(CRT)風にする。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>画像をブラウン管風に自動加工するソフト</title>
+      <link>http://localhost:1313/posts/02.analog_like/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/02.analog_like/</guid>
+      <description>&lt;p&gt;画像をブラウン管風に加工するソフトを作りました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

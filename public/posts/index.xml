@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>posts on かどまちらぼ</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in posts on かどまちらぼ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>おさんぽログ 沼津編</title>
+      <link>http://localhost:1313/posts/05.sampolog_1/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/05.sampolog_1/</guid>
+      <description>&lt;p&gt;今更ながらAqoursにハマったので、聖地巡礼と美味しい海鮮を求め沼津へ行ってきたという話&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iPhone壊したときのアカウント移行</title>
+      <link>http://localhost:1313/posts/iphone_memo1/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iphone_memo1/</guid>
+      <description>&lt;p&gt;二度あることは三度あると言うので、備忘録として。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AsepriteのスクリプトでCRT風にする</title>
+      <link>http://localhost:1313/posts/04.crt_like/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/04.crt_like/</guid>
+      <description>&lt;p&gt;Asepriteのスクリプトでブラウン管(CRT)風にする。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ぴくセルまぞくを出しました</title>
+      <link>http://localhost:1313/posts/03.doujinshi/</link>
+      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/03.doujinshi/</guid>
+      <description>&lt;p&gt;桜ケ丘ばんがいち五番地(スーパーヒロインタイム2022秋)に参加。ぴくセルまぞくを頒布しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>まぞくアドバンス</title>
+      <link>http://localhost:1313/posts/01.mazoku/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/01.mazoku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>画像をブラウン管風に自動加工するソフト</title>
+      <link>http://localhost:1313/posts/02.analog_like/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/02.analog_like/</guid>
+      <description>&lt;p&gt;画像をブラウン管風に加工するソフトを作りました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自作マウスカーソル</title>
+      <link>http://localhost:1313/posts/mousecursor/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mousecursor/</guid>
+      <description>&lt;p&gt;過去に作成したマウスカーソルについて。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

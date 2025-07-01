@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on かどまちらぼ</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on かどまちらぼ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPhone</title>
+      <link>http://localhost:1313/tags/iphone/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/iphone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aseprite</title>
+      <link>http://localhost:1313/tags/aseprite/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aseprite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PixelArt</title>
+      <link>http://localhost:1313/tags/pixelart/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pixelart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GBA</title>
+      <link>http://localhost:1313/tags/gba/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/tags/software/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/software/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

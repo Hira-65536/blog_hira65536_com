@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memo on かどまちらぼ</title>
+    <link>http://localhost:1313/categories/memo/</link>
+    <description>Recent content in Memo on かどまちらぼ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/memo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iPhone壊したときのアカウント移行</title>
+      <link>http://localhost:1313/posts/iphone_memo1/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iphone_memo1/</guid>
+      <description>&lt;p&gt;二度あることは三度あると言うので、備忘録として。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
