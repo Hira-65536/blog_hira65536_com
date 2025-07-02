@@ -5,7 +5,9 @@
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}
         {{ $thumb := .Resize "1200x" }} <!-- 適切なサイズに変更 -->
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="gallery-image responsive-image">
+        <a href="{{ $image.RelPermalink }}" data-lightbox="gallery" data-title="{{ .Title }}">
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="gallery-image responsive-image">
+        </a>
     {{end}}
 {{ end }}
 
